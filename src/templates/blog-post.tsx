@@ -4,12 +4,12 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import arrowIcon from '../images/arrow.svg';
 import SEO from '../components/Seo';
-import prevIcon from '../images/post-prev-icon.svg';
-import nextIcon from '../images/post-next-icon.svg';
+// import prevIcon from '../images/post-prev-icon.svg';
+// import nextIcon from '../images/post-next-icon.svg';
 import '../styles/blog-post.scss';
 import '../styles/code.scss';
-import PostFooterCard from '../components/common/PostFooterCard';
-import Comment from '../components/comment';
+// import PostFooterCard from '../components/common/PostFooterCard';
+// import Comment from '../components/comment';
 
 export interface CommentProps {
   service: 'disqus' | 'utterances';
@@ -27,33 +27,33 @@ const BlogPostTemplate = ({ data, location }) => {
   const { category } = data.markdownRemark.frontmatter;
   const { commentInfo } = data.site.siteMetadata;
 
-  const { previous, next } = data;
+  // const { previous, next } = data;
 
   const filteredPost = posts.filter((item) => category === item.frontmatter.category);
 
-  const commentProps: CommentProps = {
-    service: commentInfo.service,
-    disqusProps: {
-      shortname: commentInfo.disqusId,
-      config: { identifier: slug, title: post.frontmatter.title },
-    },
-    utterancesProps: commentInfo.utterancesId,
-  };
+  // const commentProps: CommentProps = {
+  //   service: commentInfo.service,
+  //   disqusProps: {
+  //     shortname: commentInfo.disqusId,
+  //     config: { identifier: slug, title: post.frontmatter.title },
+  //   },
+  //   utterancesProps: commentInfo.utterancesId,
+  // };
 
-  const getThumbnail = (postIndex) => {
-    const regex = /<img[^>]+src\s*=\s*['"]([^'"]+)['"][^>]*>/g;
-    const htmlString = filteredPost.map((htmlCode, htmlIndex) => {
-      if (postIndex === htmlIndex) {
-        return htmlCode.html;
-      }
-      return null;
-    });
-    const image = regex.exec(htmlString);
-    if (image && image.length) {
-      return `${image[0].split('srcset')[0]}/>`;
-    }
-    return null;
-  };
+  // const getThumbnail = (postIndex) => {
+  //   const regex = /<img[^>]+src\s*=\s*['"]([^'"]+)['"][^>]*>/g;
+  //   const htmlString = filteredPost.map((htmlCode, htmlIndex) => {
+  //     if (postIndex === htmlIndex) {
+  //       return htmlCode.html;
+  //     }
+  //     return null;
+  //   });
+  //   const image = regex.exec(htmlString);
+  //   if (image && image.length) {
+  //     return `${image[0].split('srcset')[0]}/>`;
+  //   }
+  //   return null;
+  // };
 
   return (
     <Layout location={location}>
@@ -70,7 +70,7 @@ const BlogPostTemplate = ({ data, location }) => {
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
       </article>
-      <nav className="blog-post-nav">
+      {/* <nav className="blog-post-nav">
         <ul>
           <li>
             {previous && (
@@ -97,12 +97,12 @@ const BlogPostTemplate = ({ data, location }) => {
             <PostFooterCard key={item.fields.slug} post={item} thumbnail={getThumbnail(postIndex)} />
           ))}
         </div>
-      </nav>
-      <Comment
+      </nav> */}
+      {/* <Comment
         service={commentProps.service}
         disqusProps={commentProps.disqusProps}
         utterancesProps={commentProps.utterancesProps}
-      />
+      /> */}
     </Layout>
   );
 };
