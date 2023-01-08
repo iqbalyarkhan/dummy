@@ -27,7 +27,7 @@ const BlogPostTemplate = ({ data, location }) => {
   const { category } = data.markdownRemark.frontmatter;
   const { commentInfo } = data.site.siteMetadata;
 
-  // const { previous, next } = data;
+  const { previous, next } = data;
 
   const filteredPost = posts.filter((item) => category === item.frontmatter.category);
 
@@ -70,34 +70,36 @@ const BlogPostTemplate = ({ data, location }) => {
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} itemProp="articleBody" />
       </article>
-      {/* <nav className="blog-post-nav">
-        <ul>
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                <img src={prevIcon} alt="left" className="left" /> PREV
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                RIGHT <img src={nextIcon} alt="right" className="right" />
-              </Link>
-            )}
-          </li>
-        </ul>
-        <p className="post-category">
-          <Link to={`/`}>HOME</Link>
-          <img src={arrowIcon} alt="HOME" />
-          <Link to={`/?category=${category}`}>{category}</Link>
-        </p>
-        <div className="post-card-container">
-          {filteredPost.map((item, postIndex) => (
-            <PostFooterCard key={item.fields.slug} post={item} thumbnail={getThumbnail(postIndex)} />
-          ))}
-        </div>
-      </nav> */}
+      {
+        <nav className="blog-post-nav">
+          {/* <ul>
+            <li>
+              {previous && (
+                <Link to={previous.fields.slug} rel="prev">
+                  <img src={prevIcon} alt="left" className="left" /> PREV
+                </Link>
+              )}
+            </li>
+            <li>
+              {next && (
+                <Link to={next.fields.slug} rel="next">
+                  RIGHT <img src={nextIcon} alt="right" className="right" />
+                </Link>
+              )}
+            </li>
+          </ul> */}
+          {/* <p className="post-category">
+            <Link to={`/`}>HOME</Link>
+            <img src={arrowIcon} alt="HOME" />
+            <Link to={`/?category=${category}`}>{category}</Link>
+          </p> */}
+          {/* <div className="post-card-container">
+            {filteredPost.map((item, postIndex) => (
+              <PostFooterCard key={item.fields.slug} post={item} thumbnail={getThumbnail(postIndex)} />
+            ))}
+          </div> */}
+        </nav>
+      }
       {/* <Comment
         service={commentProps.service}
         disqusProps={commentProps.disqusProps}
