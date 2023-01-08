@@ -1,22 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `GATSBY BLOG`,
+    title: `BLOG`,
     author: {
-      name: `jeongyun.lee`,
-      summary: `FE Engineer`,
+      name: `iqbal.khan`,
+      summary: `SWE`,
       selfIntroduction: `Hello, this is a place where you can introduce yourself. 
       If you modify Gatsby-config,
-      you can customize it freely! Thank you.`,
+      you can customize it freely!`,
     },
     description: `blog starter`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      git: `https://github.com`,
-      instagram: `https://www.instagram.com`,
-      twitter: `https://twitter.com/?lang=ko`,
-      linkdein: `https://kr.linkedin.com`,
-      facebook: `https://facebook.com`,
-      mail: `admin@gmail.com`,
+      git: `https://github.com/iqbalyarkhan`,
+      linkedin: `https://kr.linkedin.com`,
     },
     commentInfo: {
       service: 'utterances', // select utterances or disqus
@@ -25,6 +21,25 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: 'Table of Contents',
+              tight: true,
+              ordered: false,
+              fromHeading: 1,
+              toHeading: 6,
+              className: 'table-of-contents',
+            },
+          },
+          `gatsby-remark-autolink-headers`,
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-sass`,
       options: {
