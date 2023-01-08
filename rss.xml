@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[BLOG]]></title><description><![CDATA[blog starter]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Jan 2023 20:23:29 GMT</lastBuildDate><item><title><![CDATA[AWS Accounts]]></title><description><![CDATA[AWS Accounts An AWS account can be thought of as an isolated container. When you create a new AWS account, a new “account root user” is…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 256px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/468e0e89f53c92d38baf68b5a8bb1c6a/6f3f2/account.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAD7klEQVQ4y12Uy28TVxTGJ3a3ZYGQWHZTEERRAmmI7bE9dhTBAmjVqo9IsCobkKjEK0AgxE5ix06csUXaEKASEU6iqi30AYU0FBABAQKxg78g84idYGLidFGUsQ/fuTMGq5Y+zfX4zm++75xzLZlqWPqf6iC3mcZ6OMTfd5hq6DnW982U0mwOBiUzCSUCH5gDfskcCAgZcb+kQzYk7UiA2qr3NuJ6BSASSilkDkGDwTEA1wMo5RJ+Brn1qE8yYjJUBaphF2+wQW1rcE3C1RsbFq6YqVAZsDJgBBjrFfYfWUgGXOwMMJfRLyTZEdldSuH1PoB0BwQ3AcuIt5Ix4MVasWGJgAURYuK+/wWAnzLIUV3VoRd6/C7ecFiA5jM7aHF8H+XPfU1G/zZA/IAqDKsAhD1+Qkz8Jl+DNtoOReFD95w6veGIDHs59R2VHk7Q0vU4Ld85R69vjeBhH+k9TaT3eciIBxhUhlYhMvrkixCAqRBr2i56CHFkyp/vEDB2Y0S3kh7ZQq9+PU3Ls5fwosOUG/mS9F6UIhZgkAWR0esbhQAcUlgz3MH5VJuldddT8a8EvcweECAzoZAebaG5rk209GeMCr904WVTNK/uIq27CS5R515fDZDnajA4w0U3Yh5r4cIe+vfZ75RL78RmD8qwnYo3VSpOp4Wjuc6PafHSflp5coVymc9RghYA4TAKYJSBSTGoM2bCD4ft1srDSZpnGOqlnWmi4o0UGnOAFi8fhPMh0ru3wPk2ASvdzyIyHEa8DtArSWL+ADT6W2nhwl6reDOFeJsRFU1KtsPtH5T7/ivK/9BBK0+vkhkP42VBmju2AS9TKT/yjaV3fwKgPAqwJI4MxmDGiMsAhK3Sgyzlzn7BHaTSgwlavn0ecTOIncF6jEqzl8mIeCinfmav+4KW0YOuR3zvgdDfPAYovpUfRYdnx6nw8ylA0ojYTMt3f8ToXCT99FYBLvx0ikr3xuGuA/eaERlN6fGOQpI4f9AtHB8uuqVHWgDGUKu7ESlN2skGwAD8Z0ysizcyqPUu0s+0MoydrQLEwDEbaB+ZaWc4LTEGUXQ3piDyJE7JHipMdVJh8ijWe8U9I+pHd1u5bhy34gDP1gI/AizrzBMLUG+lMHUMnVVp6bd+IXZcmDgKd54yHi47IEC9w9BaG9gn1wkojg1ACtr/COIxIK2rcVU7Xk/aiQZbnfUV7WSj5YBY16EGBlVlg/AvgaubJ10o6v0WHdMQScSDLFv4HpEZ9BzajbhVkBuqc4A+SWeHR5oZBqjMQAnAD6EENv1X46gAHYJcDshVs7Yd8sd25YjXEbwx8m7TBidaFlpX87C7FlSFvQVUfK+P9N7wbwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;aws-account&quot;
+        title=&quot;aws-account&quot;
+        src=&quot;/static/468e0e89f53c92d38baf68b5a8bb1c6a/6f3f2/account.png&quot;
+        srcset=&quot;/static/468e0e89f53c92d38baf68b5a8bb1c6a/c26ae/account.png 158w,
+/static/468e0e89f53c92d38baf68b5a8bb1c6a/6f3f2/account.png 256w&quot;
+        sizes=&quot;(max-width: 256px) 100vw, 256px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;AWS Accounts&lt;/h3&gt;
+&lt;p&gt;An AWS account can be thought of as an isolated container. When you create a new AWS account, a new “account root user” is created that has all privileges in this account. During the sign-up process, you’ll be asked to set up root user password. Once completed, you can then log in to your newly created AWS account as the root user.&lt;/p&gt;
+&lt;h3&gt;Securing an Account&lt;/h3&gt;
+&lt;p&gt;To secure an an account, we will use multi-factor authentication (MFA). MFA device (smartphone, app etc) generates a code (auto-generated every 30 seconds) that is needed in addition to our username and password to log into an account. To enable MFA, you need to navigate to IAM and activate MFA.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1b351d5400842d593f4354033a1471c9/7960f/mfa.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 34.177215189873415%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABkElEQVQoz2WQy07CQBSG+1wqyCVedi5QI+pKTFQapAq0tNzaaARW7NiAr+ALGJ/AjY8ALLgUESLXttTfM5NINE7y5cyZZL785wjeQBAbvgA2qXr8fqx7N7Hm8VIfQOjwAPtHYeLkHwfhU+yFDrHuC8K/vQvf1g6vgqqqyGYyKD48wDAMZLNZyCkZj/U6RqMR3vt9TKdT2LYFx7Hh2DYsawF2Go0GCrqBUrHI/zMEWVGQTqeRy+Wg0P1WikOMRlGtVvExHKHT6eBzPMZ8PicpCZ0llkuXC1utFqR4HKlUCslkkiMwWT6fh64XoKgazsVbXIox1Go1TCYT9CnhbDajVBaJlvhyXbhUecJmE4lEggdik2ZoUkGWZf5g6DqSiorj82tELkTUSTimZKZpYjgc8oQLy8bcdjFdOFxodttIUCpN07iQVeHHrpOQycWrS0QiZ6hUKhgMBjwhk/Z6PcLktDtdPL+18fTySiPHIN3cQJIkzh+hpmX4HthO2E5LpdKKcrm8gvWFuyLyxj1U+p/+xTdPjohNNPIeaQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;mfa-image&quot;
+        title=&quot;mfa-image&quot;
+        src=&quot;/static/1b351d5400842d593f4354033a1471c9/f058b/mfa.png&quot;
+        srcset=&quot;/static/1b351d5400842d593f4354033a1471c9/c26ae/mfa.png 158w,
+/static/1b351d5400842d593f4354033a1471c9/6bdcf/mfa.png 315w,
+/static/1b351d5400842d593f4354033a1471c9/f058b/mfa.png 630w,
+/static/1b351d5400842d593f4354033a1471c9/40601/mfa.png 945w,
+/static/1b351d5400842d593f4354033a1471c9/78612/mfa.png 1260w,
+/static/1b351d5400842d593f4354033a1471c9/7960f/mfa.png 1274w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;With this enabled, you’ve secured your root user account. This is recommended since the root user has full privileges in an AWS account.&lt;/p&gt;
+&lt;h3&gt;Budget&lt;/h3&gt;
+&lt;p&gt;It is recommended to create a budget so that you get alerts/alarms when you breach a certain threshold (50% of budget amount etc).&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/674d9eb4bae2b8b30eec03131513fb6b/85e74/budget.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 28.48101265822785%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABEUlEQVQY031Ou1LDMBD0B1NkAMMMNAkQPoQOYpKenoaCjiJ9ZsAkfkiyHpaEl9Mx9kDDjE67t3e7UhbDgO3uDYsix+3mAjfrc1w/nmK5OcNyPVZOej71V8Ux5g8zzFczxkVxgsv7I6ye75ANwwDQ2ZcHfJYVrHbojYO3/Z8KziNYP/U97yVOmlLwUiD6iExKiRgDPsp37KsDrLOw1jAaRsMoyCCpkq6NRt3UrGlrIbcvqF6fWOfAEDyblNZk6CmQlpSEI65NCnVkltA077oOhrTfXKnuZ48ysiSkQKUEqqZBIwTzVtRkUPwrIVrSJIW29JBgPuqpTzxpJv3Q0hW/Ig0bGtCCbCae8L8ad9jT1hz4DSDFuILnXc7+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;budget&quot;
+        title=&quot;budget&quot;
+        src=&quot;/static/674d9eb4bae2b8b30eec03131513fb6b/f058b/budget.png&quot;
+        srcset=&quot;/static/674d9eb4bae2b8b30eec03131513fb6b/c26ae/budget.png 158w,
+/static/674d9eb4bae2b8b30eec03131513fb6b/6bdcf/budget.png 315w,
+/static/674d9eb4bae2b8b30eec03131513fb6b/f058b/budget.png 630w,
+/static/674d9eb4bae2b8b30eec03131513fb6b/40601/budget.png 945w,
+/static/674d9eb4bae2b8b30eec03131513fb6b/78612/budget.png 1260w,
+/static/674d9eb4bae2b8b30eec03131513fb6b/85e74/budget.png 1436w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
